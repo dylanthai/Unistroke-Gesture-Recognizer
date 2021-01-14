@@ -1,5 +1,7 @@
 Author: Dylan Thai
+
 Date: 10/20/2020
+
 Title: Unistroke Gesture Recognizer
 
 (CS 135 Assignment 4 Fall 2020)
