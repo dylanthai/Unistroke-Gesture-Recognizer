@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname recognize) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+#reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |Unistoke Gesture Recognizer|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ;;
 ;; *****************************
 ;; Dylan Thai (20898721)
@@ -640,13 +640,6 @@
 (check-expect (k-point-rec testx templates 9) 'x)
 (check-expect (k-point-rec testy templates 7) 'y)
 (check-expect (k-point-rec testz templates 8) 'z)
-
-;; Tests that didnt pass
-;; (check-expect (k-point-rec testb templates 20) 'b)
-;; (check-expect (k-point-rec testg templates 20) 'g)
-;; (check-expect (k-point-rec testm templates 20) 'm)
-;; (check-expect (k-point-rec testo templates 20) 'o)
-;; (check-expect (k-point-rec testq templates 20) 'q)
 
 
 
